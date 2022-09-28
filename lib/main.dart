@@ -35,10 +35,8 @@ class MyWidget extends StatelessWidget {
           ElevatedButton(
           child: const Text('second page'),
           onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => const SecondPage()),
-            );
+           Navigator.push(context, 
+           MaterialPageRoute(builder: (context)=> const SecondPage()))
           },
         ),
           Card(
